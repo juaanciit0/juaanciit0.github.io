@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤¿Quieres Ser Mi Novia?❤</title>
+    <style>
+        img {
+            width: 25%;
+            border-radius: 25%;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(226, 2, 47);">
+    <div align="center">
+        <h1 style="color:white"> ❤¿Quieres Ser Mi Novia?❤</h1>
+        <img src="https://cdn.shopify.com/s/files/1/0528/2060/7157/collections/image_6fbd982e-c686-4f8b-849c-99f94035efb5_1200x1200.jpg?v=1626659943"
+            alt="foTo">
+            <br><br><br>
+        <button id="yes">😈si quiero uwu🥵</button>
+        <button id="no">🏳‍🌈mmm nop🏳‍🌈</button>
+    </div>
+
+
+    <script>
+        const vutonSi = document.getElementById('yes');
+        const vutonNo = document.getElementById('no');
+
+        const zomosnobios = () => {
+            alert('nao nao ya somos novios');
+            alert('ahora si sos mia trola');
+            alert('a tu, amor de mi vida');
+            location.href = 'https://www.youtube.com/watch?v=YiZI_4oyXXU&ab_channel=Chayanne-Topic';
+        }
+
+        const evitarelno = () => {
+            vutonNo.style.position = 'absolute';
+            vutonNo.style.top = (Math.random() * window.innerHeight) + 'px';
+            vutonNo.style.left = (Math.random() * window.innerHeight) + 'px';
+        }
+
+        vutonSi.addEventListener('click', zomosnobios)
+        vutonNo.addEventListener('mouseover', evitarelno);
+    </script>
+</body>
+
+</html>
